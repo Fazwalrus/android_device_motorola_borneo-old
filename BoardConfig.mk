@@ -14,18 +14,18 @@
 # limitations under the License.
 #
 
--include device/motorola/sm6150-common/BoardConfigCommon.mk
+-include device/motorola/sm6115-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/odessa
+DEVICE_PATH := device/motorola/borneo
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 280
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/odessa_defconfig
+TARGET_KERNEL_CONFIG := vendor/borneo_defconfig
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
